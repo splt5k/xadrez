@@ -1,0 +1,259 @@
+/* Estilos CSS */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para o contêiner principal (container) */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos Responsivos */
+@media (max-width: 768px) {
+    .container {
+        max-width: 100%; /* Ajuste para 100% em dispositivos móveis */
+    }
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.search-box {
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #444;
+    color: #fff;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(odd) {
+    background-color: #e0e0e0;
+}
+
+/* No arquivo style.css */
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    display: block; /* Coloca as labels em uma nova linha */
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%; /* Define a largura total do input */
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group button {
+    padding: 5px 10px;
+    background-color: #0077cc;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilos CSS para os botões */
+.buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* Cor de fundo do botão (azul) */
+    color: #fff; /* Cor do texto no botão (branco) */
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #0056b3; /* Cor de fundo quando o botão é destacado */
+}
+
+/* Estilo para o botão "Sair" */
+.logout-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #dc3545; /* Cor de fundo do botão "Sair" (vermelho) */
+    color: #fff; /* Cor do texto no botão (branco) */
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.logout-button:hover {
+    background-color: #c82333; /* Cor de fundo quando o botão "Sair" é destacado */
+}
+
+/* Estilo para o contêiner do header */
+.header {
+    display: flex;
+    justify-content: flex-end; /* Mover para a direita */
+    align-items: center;
+    background-color:transparent; /* Cor de fundo do header */
+    padding: 5px; /* Espaçamento interno do header reduzido */
+}
+
+/* Estilo para o botão de administração */
+.admin-button {
+    padding: 2px 5px; /* Tamanho reduzido em 50% */
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.2s;
+    font-size: 12px; /* Tamanho da fonte reduzido */
+}
+
+.admin-button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo para o botão "Voltar" */
+.back-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px; /* Ajuste o padding para controlar o tamanho */
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    width: 79.27px; /* Ajuste o tamanho do botão aqui para igualar o tamanho do botão "Entrar" */
+}
+
+.back-button:hover {
+    background-color: #0056b3;
+}
+
+
+/* Estilos Responsivos */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    table {
+        font-size: 10px;
+    }
+
+    th, td {
+        padding: 8px;
+    }
+}
+
+/* CSS para dispositivos móveis */
+@media (max-width: 768px) {
+    .buttons a {
+        display: block; /* Fazer com que os botões ocupem a largura total */
+        margin: 10px 0; /* Espaçamento entre os botões */
+    }
+}
+
+
+
+/* CSS para a página de login */
+.login-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos Responsivos para a página de login */
+@media (max-width: 768px) {
+    .login-container {
+        max-width: 100%; /* Ajuste para 100% em dispositivos móveis */
+    }
+}
+
+
+.player-profile {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.player-profile h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+.player-profile p {
+    margin-bottom: 10px;
+}
+.player-profile p strong {
+    color: #555;
+}
+
+/* Estilos para o modo claro (tema padrão) */
+@media (prefers-color-scheme: light) {
+    /* Defina seus estilos para o modo claro aqui */
+    body {
+        background-color: #f0f0f0;
+        color: #333;
+    }
+}
+
+/* Estilos para o modo escuro */
+@media (prefers-color-scheme: dark) {
+    /* Defina seus estilos para o modo escuro aqui */
+    body {
+        background-color: #333;
+        color: #fff;
+    }
+
+    /* Outros estilos escuros */
+}
